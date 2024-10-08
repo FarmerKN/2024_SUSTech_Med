@@ -46,7 +46,7 @@ Materials:
       10x Buffer        			2 μl
 	  Enzyme1           			1 μl
       Enzyme2           			1 μl
-      Insert or vector                  1 μg
+      Insert or vector                     1 μg
       Total         			20 μl
 Note：
 
