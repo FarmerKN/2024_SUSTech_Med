@@ -42,12 +42,12 @@ PCR program: always use hot lid
 
 Materials:
  
-      ddH20 			          	X μl
+      ddH20 			          X μl
       10x Buffer        			2 μl
 	  Enzyme1           			1 μl
       Enzyme2           			1 μl
       Insert or vector      		        1 μg
-      Total         				20 μl
+      Total         			20 μl
 Note：
 
 (but for vectors, don't use overnight digestions). For FA (Fse1 and Asc1) cloning, 5hoursshould be enough. To reduce potential self-ligation in later steps, add 1 μl of ClAP intothe vector digestion mixture and incubate for another 30min at 37℃ beforeharvesting. Inserts don't need ClAp treatment. For ligation of digested vectors and annealed oligoes with overhangsit's better to dephosphorylate digested vectors with ClAP and then add 0.5 μl T4 PNK in the 10 μl ligation system.
