@@ -35,8 +35,8 @@ Additionally, the specific binding of the GP20 tail fiber protein can influence 
   ![](https://github.com/FarmerKN/2024_SUSTech_Med/blob/main/docs/documentation/Fig.1.png?raw=true)
   
   Fig.1 The SDS-PAGE results for the amplification of the three proteins
-  
-  As shown in Figure 1, the gel electrophoresis results display the three proteins extracted from colony 1, colony 2, and colony 3 after amplification. In the figure, “M” represents the marker, providing a reference for the molecular sizes of the three proteins, which helps us assess their sizes. "PVC15" refers to the protein translated from the PVC1-16 fragment with PVC13 knocked out (the part encoding the tail fiber protein), leaving only the outer shell of the PVC system, ensuring its structural integrity after the tail fiber protein is replaced. "GP20" is the tail fiber protein from T4 bacteriophage, which specifically recognizes Vibrio cholerae. "VgrG3" represents a toxin protein. Based on the gel results and the known molecular weights, the sizes of the extracted proteins match their theoretical values.
+    
+    As shown in Figure 1, the gel electrophoresis results display the three proteins extracted from colony 1, colony 2, and colony 3 after amplification. In the figure, “M” represents the marker, providing a reference for the molecular sizes of the three proteins, which helps us assess their sizes. "PVC15" refers to the protein translated from the PVC1-16 fragment with PVC13 knocked out (the part encoding the tail fiber protein), leaving only the outer shell of the PVC system, ensuring its structural integrity after the tail fiber protein is replaced. "GP20" is the tail fiber protein from T4 bacteriophage, which specifically recognizes Vibrio cholerae. "VgrG3" represents a toxin protein. Based on the gel results and the known molecular weights, the sizes of the extracted proteins match their theoretical values.
  
 In order to certify which structure mainly perform functions in the bacterial-killing procedure,  we then conduct the Sterilisation experiments on checkerboard point panels by mixing specific proteins with EPI300, the target bacterium in our project.
   
