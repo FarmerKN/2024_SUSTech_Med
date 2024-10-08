@@ -12,15 +12,15 @@ The principle we need to follow:
 
 Materials:
 
-      ddH2O							X μl
-      5X buffer						10μl
-      10m M dNTPs				  	1μl
-      Forward primer(10 μM)	   	1.5 μl
-      Reverse primer(10 μM)	   	1.5 μl
+      ddH2O						X μl
+      5X buffer					        10μl
+      10m M dNTPs	          	  	        1μl
+      Forward primer(10 μM)	   	                1.5 μl
+      Reverse primer(10 μM)	   	                1.5 μl
       Template					 	50-100mg for plasmids and pure genomic DNA
-      DMSO						 	1.5 μl
-      Phusion DNA Polymerase	   	0.5 μl
-      Total							50 μl
+      DMSO					 	1.5 μl
+      Phusion DNA Polymerase	   	                0.5 μl
+      Total						50 μl
  
 PCR program: always use hot lid
 
@@ -46,7 +46,7 @@ Materials:
       10x Buffer        			2 μl
 	  Enzyme1           			1 μl
       Enzyme2           			1 μl
-      Insert or vector      		1 μg
+      Insert or vector      		        1 μg
       Total         				20 μl
 Note：
 
@@ -61,7 +61,7 @@ Materials：
 	  10x buffer	        		1 μl
 	  Digested vector        		1 μl (0.5μl if vector has been proven good)
 	  Digested insert
-	  (or water for control)        3 μl (2.5μl if insert has been proven good)	
+	  (or water for control)                3 μl (2.5μl if insert has been proven good)	
 	  T4 Ligase		            	0.5 μl
 	  Total			            	10 μl
  
