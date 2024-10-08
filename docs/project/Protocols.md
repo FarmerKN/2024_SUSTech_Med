@@ -2,7 +2,7 @@
 ## 1.Primer construction
 The principle we need to follow:
 
-1) For a single primer sequence: 5'-protected base + enzyme cutting sequence +20bp and template pairing sequence (CG base content is preferably 40-60%, the 3' end ends in G or C, and the difference in Tm values of the forward and reverse primers does not exceed 5℃)
+1)For a single primer sequence: 5'-protected base + enzyme cutting sequence +20bp and template pairing sequence (CG base content is preferably 40-60%, the 3' end ends in G or C, and the difference in Tm values of the forward and reverse primers does not exceed 5℃)
 
 2)Primers naming rules: h/m (human/mouse gene) + gene name + F/R (positive/reverse) + cleavage site
 
