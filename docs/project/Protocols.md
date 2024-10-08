@@ -57,7 +57,7 @@ Note：
 
 Materials：
 
-      ddH20           				4.5 μl
+      ddH20           			4.5 μl
 	  10x buffer	        		1 μl
 	  Digested vector        		1 μl (0.5μl if vector has been proven good)
 	  Digested insert
