@@ -19,8 +19,8 @@ Materials:
       Reverse primer(10 μM)	   	                1.5 μl
       Template			               	50-100mg for plasmids and pure genomic DNA
       DMSO					 	1.5 μl
-      Phusion DNA Polymerase	   	                0.5 μl
-      Total					50 μl
+      Phusion DNA Polymerase	   	        0.5 μl
+      Total					        50 μl
  
 PCR program: always use hot lid
 
