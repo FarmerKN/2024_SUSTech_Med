@@ -40,9 +40,9 @@ copyright: Copyright &copy; 2024 iDEC. CC-BY-4.0 | The International Directed Ev
 
 nav:
   - Index: index.md
-  - Home: project/Home.md
   - Team: team.md
   - Project:
+      - Abstract: project/Abstract.md
       - Design: project/Design.md
       - Results: project/Results.md
   - Documentation:
