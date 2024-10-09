@@ -1,0 +1,809 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Abstract/">
+      
+      
+        <link rel="next" href="../Results/">
+      
+      
+      <link rel="icon" href="../../img/idec-wiki-logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>Design - iDEC 2024 | SUSTech Med</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#design" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iDEC 2024 | SUSTech Med" class="md-header__button md-logo" aria-label="iDEC 2024 | SUSTech Med" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iDEC 2024 | SUSTech Med
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Design
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/idec-teams/2024_SUSTech_Med" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iDEC 2024 | SUSTech Med" class="md-nav__button md-logo" aria-label="iDEC 2024 | SUSTech Med" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    iDEC 2024 | SUSTech Med
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/idec-teams/2024_SUSTech_Med" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Abstract/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Abstract
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Design
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Design
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview-of-the-properties-and-functions-of-pvc-proteins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview of the Properties and Functions of PVC Proteins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#origin-and-structural-composition-of-pvc-proteins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Origin and Structural Composition of PVC Proteins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-of-pvc-proteins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function of PVC Proteins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#role-of-pvc13-tail-fiber-protein" class="md-nav__link">
+    <span class="md-ellipsis">
+      Role of Pvc13 Tail Fiber Protein
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prospects-of-the-pvc-system-in-disease-treatment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prospects of the PVC System in Disease Treatment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ideas-for-targeting-usinggp20tail-fiber-protein" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ideas for Targeting UsingGP20Tail Fiber Protein
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Results/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Results
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/Notebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Notebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/Protocols/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/Reference/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reference
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/Safety/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Safety
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview-of-the-properties-and-functions-of-pvc-proteins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview of the Properties and Functions of PVC Proteins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#origin-and-structural-composition-of-pvc-proteins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Origin and Structural Composition of PVC Proteins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-of-pvc-proteins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Function of PVC Proteins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#role-of-pvc13-tail-fiber-protein" class="md-nav__link">
+    <span class="md-ellipsis">
+      Role of Pvc13 Tail Fiber Protein
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prospects-of-the-pvc-system-in-disease-treatment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prospects of the PVC System in Disease Treatment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ideas-for-targeting-usinggp20tail-fiber-protein" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ideas for Targeting UsingGP20Tail Fiber Protein
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Design</h1>
+
+<h2 id="design">Design</h2>
+<h3 id="overview-of-the-properties-and-functions-of-pvc-proteins">Overview of the Properties and Functions of PVC Proteins</h3>
+<p>The Photorhabdus virulence cassette (PVC), which encodes PVC particles, is an extracellular contractile injection system (eCIS) derived from Photorhabdus. This system shows immense potential in biomedical fields such as protein delivery and gene editing. The PVC system is primarily composed of various structural proteins that form a complex mechanism, enabling the efficient delivery of functional proteins into target cells or organisms. PVC proteins play a crucial role not only in the virulence mechanisms of bacteria but also, through modification, provide a novel approach for targeted protein delivery, with promising applications in gene therapy, cancer treatment, and biocontrol.
+ </p>
+<h3 id="origin-and-structural-composition-of-pvc-proteins">Origin and Structural Composition of PVC Proteins</h3>
+<p>The PVC protein system originates from Photorhabdus, a bacterium that uses this system as a weapon to maintain virulence and interact with hosts in natural environments. The PVC system’s encoding gene cluster is about 20kb in length and contains 16 core genes (pvc1-16). These proteins assemble to form functional PVC particles, which have a core structure highly similar to the tail structure of bacteriophages, particularly those with contractile tails. The key components of the PVC system are its shell structure and its effector protein delivery mechanism. The assembly of PVC particles relies on the action of effector proteins Pdp1 and Pdf. These proteins have N-terminal signal peptides, which guide them into PVC particles and facilitate their delivery into target cells. This delivery mechanism is similar to the way bacteriophages inject their genetic material into host cells during infection. Researchers have successfully reconstructed the PVC expression system in E.coli, demonstrating that PVC can effectively deliver different functional proteins into target cells, proving its potential in protein delivery applications.
+ </p>
+<h3 id="function-of-pvc-proteins">Function of PVC Proteins</h3>
+<p>Initially, PVC particles were discovered as tools used by Photorhabdus to inject toxins into host cells. Through this injection system, Photorhabdus effectively delivers toxic effector proteins to host cells, facilitating infection and cell death. However, the function of PVC proteins extends beyond bacterial virulence mechanisms. They have also been found to have applications in fields like protein delivery, gene editing, and targeted therapy. Researchers have modified the PVC system to deliver a variety of functional proteins, such as green fluorescent protein (GFP), Cre recombinase, zinc finger nucleases (ZFN), and Cas9, into insect cells. This discovery suggests that the PVC system can be used not only as a protein delivery tool but also as a means of targeted delivery of functional proteins, especially in gene editing and cellular regulation. Moreover, the PVC system’s efficient delivery capability can be harnessed for gene therapy. For example, researchers have delivered gene-editing tools like Cas9 and ZFN into HEK293FT cells via PVC particles, successfully editing specific gene loci. This outcome demonstrates the PVC system's immense potential as a gene-editing delivery platform, particularly for difficult-to-transfect cells or in vivo delivery scenarios.
+ </p>
+<h3 id="role-of-pvc13-tail-fiber-protein">Role of Pvc13 Tail Fiber Protein</h3>
+<p>Within the PVC system, the Pvc13 tail fiber protein plays a critical role in recognizing and binding to host cells. Pvc13, encoded by the pvc13 gene, is a tail fiber protein that is essential for the interaction between PVC particles and receptors on target cell surfaces. Studies have shown that engineering Pvc13 can significantly alter the affinity of PVC particles for specific cells. This provides a feasible approach for targeted delivery using the PVC system. For instance, researchers have enhanced the binding ability of PVC particles to the human lung adenocarcinoma cell line A549 by fusing the Ad5-knob domain or the DARPin E01 domain to Pvc13, achieving targeted delivery of functional proteins. Furthermore, by modifying Pvc13, highly selective PVC particles can be developed based on the specificity of cell surface receptors. For example, PVC particles engineered with the Pvc13-CD4-DARPin mutant (which specifically recognizes the CD4 receptor) can efficiently kill Jurkat cells, a T-cell leukemia cell line, while the Pvc13-CD11b-DARPin mutant, which recognizes the CD11b receptor, has no effect on these cells. This result demonstrates that the modification of the Pvc13 tail fiber protein can be used to achieve cell-specific delivery.
+ </p>
+<h3 id="prospects-of-the-pvc-system-in-disease-treatment">Prospects of the PVC System in Disease Treatment</h3>
+<p>The applications of the PVC system extend beyond in vitro protein delivery. Researchers have successfully constructed PVC particles capable of targeted delivery in mice through modifications of the Pvc13 tail fiber protein. This breakthrough offers a new method for in vivo delivery of proteins and gene-editing tools, particularly in the treatment of diseases, showcasing significant potential for therapeutic applications. For major diseases like cancer, researchers can modify Pvc13 to target tumor cells, increasing the precision of treatment while reducing side effects. Additionally, the PVC system opens new possibilities for gene therapy. By delivering gene-editing tools such as Cas9 and base editors to specific cells, the PVC system can help repair genetic defects, achieving therapeutic outcomes for genetic diseases. In cancer treatment, the specific delivery capability of the PVC system can be used to deliver toxic proteins or immune modulators, precisely attacking cancer cells while sparing normal cells from harm.
+ </p>
+<h3 id="ideas-for-targeting-usinggp20tail-fiber-protein">Ideas for Targeting UsingGP20Tail Fiber Protein</h3>
+<p>To achieve targeted delivery of toxic proteins against Vibrio cholerae, we propose modifying the tail fiber portion of the PVC injection system, enabling PVC particles to achieve targeted bacterial killing based on this specificity. This concept is grounded in the understanding that bacteriophages are viruses that can specifically kill bacterial populations. Therefore, we can assemble bacteriophage tail fiber proteins onto the PVC system to achieve specific targeting and killing of V. cholerae. The first step involves understanding the GP20 tail fiber protein.</p>
+<p>The GP20 tail fiber protein is a crucial component of the T4 bacteriophage, playing a key role in the assembly of the bacteriophage's head and tail. According to the T4 bacteriophage assembly model, GP20 tail fiber protein forms through a multi-step process and exhibits high specificity in recognizing and binding to bacterial receptors, helping the bacteriophage complete its infection cycle. Studies on theGP20tail fiber protein have mainly focused on its role in head morphogenesis and the assembly of the prohead.</p>
+<p>During the T4 bacteriophage infection cycle, GP20is one of the key elements of the tail fiber protein and is essential for head assembly. Research indicates thatGP20plays a pivotal role in the assembly of the prohead, forming a scaffold that aids other structural proteins, such as gp23, in forming the outer shell of the head. This assembly process is complex and precise, and the presence ofGP20is essential for the correct formation of the bacteriophage head.</p>
+<p>GP20 tail fiber protein is primarily derived from the T4 bacteriophage, a model that infects E.coli. T4 bacteriophage has been a classic system for studying phage assembly and infection mechanisms. Its GP20 tail fiber protein is crucial for recognizing host bacteria and initiating the infection process. By binding to specific receptors on the host bacterial surface, GP20 helps the bacteriophage firmly attach to the host cell and subsequently inject its genome to initiate the infection cycle. This specific binding process involves various structures on the host cell surface, including lipopolysaccharides (LPS) and outer membrane proteins, which act as receptors for the bacteriophage.</p>
+<p>In the infection of Vibrio cholerae, the GP20 tail fiber protein exhibits high specificity. V. cholerae, the main pathogen responsible for cholera, primarily spreads through contaminated water and food, causing outbreaks in human populations. Studies indicate that bacteriophages recognize and bind to V. cholerae surface receptors, such as LPS and outer membrane proteins, to complete the infection process. These receptors’ diversity determines the host specificity of different bacteriophages and influences their infection efficiency through various host adaptation mechanisms.</p>
+<p>In the phage typing of V. cholerae O1 El Tor biotype, five phages (VP1 to VP5) have been used to subtype O1 El Tor strains. Research has shown that phage VP2 requires the Type II secretion system (T2SS) of V. cholerae for adsorption and infection. T2SS not only secretes cholera enterotoxin and releases CTXΦ phage but also plays a crucial role in phage VP2's infection process, demonstrating the role of theGP20tail fiber protein in recognizing V. cholerae's specific receptors.</p>
+<p>Additionally, the specific binding of the GP20 tail fiber protein can influence bacterial evolution of phage resistance. Host bacteria may evolve resistance to phage infection by mutating receptors, which may affect the phage's infection range under selective pressure. Understanding the interaction between the GP20 tail fiber protein and host receptors not only deepens our knowledge of phage infection mechanisms but also provides new avenues for the application of phages in eliminating resistant bacterial strains.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
+  </body>
+</html>
