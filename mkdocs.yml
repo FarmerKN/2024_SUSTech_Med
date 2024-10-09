@@ -43,9 +43,10 @@ nav:
   - Home: project/Home.md
   - Team: team.md
   - Project:
-      - Project: project/Project.md
+      - Design: project/Design.md
+      - Results: project/Results.md
   - Documentation:
-      - Notebook: project/Notebook.md
-      - Protocols: project/Protocols.md
-      - Reference: project/Reference.md
-      - Safety: project/Safety.md
+      - Notebook: documentation/Notebook.md
+      - Protocols: documentation/Protocols.md
+      - Reference: documentation/Reference.md
+      - Safety: documentation/Safety.md
