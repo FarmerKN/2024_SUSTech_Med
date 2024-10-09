@@ -1,4 +1,4 @@
-<img src="https://github.com/FarmerKN/2024_SUSTech_Med/blob/main/docs/img/sustech-med-home-bg.jpg?raw=true" width="100%"/>
+<img src="./img/sustech-med-home-bg.jpg" width="100%"/>
 
 # Home
 

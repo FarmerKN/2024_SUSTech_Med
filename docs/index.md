@@ -1,4 +1,5 @@
-# iDEC 2024 | SUSTech Med
+<img src="./img/sustech-med-logo.jpg" alt="Logo" style="height: 24px; vertical-align: middle; margin-right: 8px;">
+<strong>iDEC 2024 | SUSTech Med</strong>
 
 This wiki template was built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). You are by no means confined to use this template. In fact, you are encouraged to build your own unique **static site** that best suits your project, and you are free to use any framework you like.
 

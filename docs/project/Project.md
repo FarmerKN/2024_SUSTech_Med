@@ -32,7 +32,7 @@ Additionally, the specific binding of the GP20 tail fiber protein can influence 
 
 ## Results
   
-  ![](https://github.com/FarmerKN/2024_SUSTech_Med/blob/main/docs/documentation/Fig.1.png?raw=true)
+  ![](./img/results/Fig.1.png?raw=true)
   
   Fig.1 The SDS-PAGE results for the amplification of the three proteins
 
@@ -41,7 +41,7 @@ Additionally, the specific binding of the GP20 tail fiber protein can influence 
  
 In order to certify which structure mainly perform functions in the bacterial-killing procedure,  we then conduct the Sterilisation experiments on checkerboard point panels by mixing specific proteins with EPI300, the target bacterium in our project.
   
-  ![](https://github.com/FarmerKN/2024_SUSTech_Med/blob/main/docs/documentation/Fig.2.png?raw=true)
+  ![](./img/results/Fig.2.png?raw=true)
   
   Fig.2  The antibiotic test on EPI300
   
@@ -49,13 +49,13 @@ In order to certify which structure mainly perform functions in the bacterial-ki
  
 Figure showed that the reconstructed PVC system can not perform its functions without either tail fiber or payload. The function would be sound only if the system contains tail fiber (for specific recognition) and payload (for toxic killing).
   
-  ![](https://github.com/FarmerKN/2024_SUSTech_Med/blob/main/docs/documentation/Fig.3.png?raw=true)
+  ![](./img/results/Fig.3.png?raw=true)
   
   Fig.3 PVC caused the rupture of Vibrio cholerae
   
   After preliminary determination of the killing effect through the growth of colonies on agar plates, we incubated PVC with Vibrio cholerae and captured electron micrographs during the killing process. These micrographs revealed ruptures in the cell membranes of the vibrios, with cellular contents leaking out. And various forms of PVC particles, both in pre-contraction and contraction states are observed. With this, we have confirmed that PVC indeed targets and binds to Vibrio cholerae, achieving bactericidal effects.
   
-  ![](https://github.com/FarmerKN/2024_SUSTech_Med/blob/main/docs/documentation/Fig.4.png?raw=true)
+  ![](./img/results/Fig.4.png?raw=true)
   
   Fig.4 Electron micrographs after PVC completed the killing
   
