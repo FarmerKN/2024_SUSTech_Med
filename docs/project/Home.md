@@ -1,4 +1,4 @@
-<img src="../../img/sustech-med-home-bg.jpg" width="100%"/>
+<img src="img/sustech-med-home-bg.jpg" width="100%"/>
 
 # Home
 
