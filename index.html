@@ -6,21 +6,19 @@
     <title>iDEC 2024 | SUSTech Med</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
-            background-color: #f4f4f4;
         }
         /* Sidebar style */
         .sidebar {
-            background-color: #ffffff;
+            background-color: #f7f7f7;
             width: 250px;
             padding: 15px;
             height: 100vh;
             box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
             position: fixed;
-            z-index: 1;
         }
         .sidebar ul {
             list-style: none;
@@ -33,8 +31,6 @@
             text-decoration: none;
             color: #333;
             font-size: 18px;
-            display: block;
-            transition: color 0.3s ease;
         }
         .sidebar ul li a:hover {
             color: #007bff;
@@ -43,8 +39,8 @@
         /* Main content style */
         .main-content {
             padding: 20px;
-            margin-left: 270px;
-            width: calc(100% - 270px);
+            margin-left: 270px; /* Make space for the fixed sidebar */
+            width: calc(100% - 270px); /* Full width minus sidebar */
         }
         .header {
             background-color: #007bff;
@@ -52,17 +48,12 @@
             padding: 15px;
             text-align: center;
             font-size: 24px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .content {
             margin-top: 20px;
-            background-color: #ffffff;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .content h1 {
             font-size: 32px;
-            margin-bottom: 0.5em;
         }
         .content p {
             font-size: 18px;
@@ -77,19 +68,6 @@
             color: #666;
             border-top: 1px solid #e7e7e7;
             margin-top: 20px;
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .sidebar {
-                width: 100%;
-                height: auto;
-                position: relative;
-            }
-            .main-content {
-                margin-left: 0;
-                width: 100%;
-            }
         }
     </style>
     <!-- Include the marked library from CDN -->
@@ -107,8 +85,61 @@
             <li><a href="#" onclick="loadMarkdown('https://raw.githubusercontent.com/FarmerKN/2024_SUSTech_Med/refs/heads/main/docs/project/Notebook.md')">Notebook</a></li>
             <li><a href="#" onclick="loadMarkdown('https://raw.githubusercontent.com/FarmerKN/2024_SUSTech_Med/refs/heads/main/docs/project/Protocols.md')">Protocols</a></li>
             <li><a href="#" onclick="loadMarkdown('https://raw.githubusercontent.com/FarmerKN/2024_SUSTech_Med/refs/heads/main/docs/project/Reference.md')">Reference</a></li>
-        </ul>
     </div>
 
     <!-- Main Content -->
-    <div class="main-content
+    <div class="main-content">
+        <!-- Header -->
+        <div class="header">
+            iDEC 2024 | SUSTech Med
+        </div>
+
+        <!-- Content -->
+        <div class="content" id="content">
+            <h1>iDEC 2024 | SUSTech Med</h1>
+            <p>Hi.</p>
+            <p>We are SUSTech-Med.</p>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            Copyright © 2024 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporated Organisation (SCIO), registered in Scotland, with charity number: SC050826
+        </footer>
+    </div>
+
+    <script>
+        // Function to dynamically load content from different pages
+        function loadContent(page) {
+            const contentDiv = document.getElementById('content');
+            if (page === 'home') {
+                contentDiv.innerHTML = `
+                    <h1>iDEC 2024 | SUSTech Med</h1>
+                    <p>Hi.</p>
+                    <p>We are SUSTech-Med.</p>
+                `;
+            } else if (page === 'background') {
+                contentDiv.innerHTML = `
+                    <h1>Project Background</h1>
+                    <p>Here you can describe the background of your project...</p>
+                `;
+            }
+        }
+
+        // Function to fetch and render markdown file from a URL
+        function loadMarkdown(url) {
+            fetch(url)
+            .then(response => response.text())
+            .then(markdown => {
+                const contentDiv = document.getElementById('content');
+                // Use the marked library to convert markdown to HTML
+                contentDiv.innerHTML = marked.parse(markdown);
+            })
+            .catch(error => {
+                const contentDiv = document.getElementById('content');
+                contentDiv.innerHTML = `<p>Error loading markdown file: ${error.message}</p>`;
+            });
+        }
+    </script>
+
+</body>
+</html>
