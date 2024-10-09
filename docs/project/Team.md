@@ -4,8 +4,6 @@
 
 ### Qikun, Gao
 
-Attribution
-
 I have participated in the visualization and propagation in the project.
 
 Text summary: I am responsible for collecting and organizing research data and analysis reports of team members, ensuring that all documents are in the same format and the information is accurate. Through efficient information management, the team is provided with a clear workflow and data access system.
