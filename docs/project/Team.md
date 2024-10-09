@@ -44,7 +44,7 @@ I organized and participated in the experiment, co-wrote the project report, and
 
 I played a key role in designing, organizing, and executing the experiments. I developed the experimental strategy, determined necessary protocols, and ensured proper planning and implementation. In addition to designing the workflow, I coordinated tasks and resources to ensure efficiency. My work included conducting critical lab operations like bacterial transformations, protein extractions, and running assays. Through careful planning and hands-on execution, I helped ensure smooth experiment execution and reliable data collection to support the study's objectives. 
 
- ![](https://github.com/FarmerKN/2024_SUSTech_Med/blob/main/docs/documentation/Fig.111.png?raw=true)
+ ![](https://github.com/FarmerKN/2024_SUSTech_Med/blob/main/docs/documentation/Fig.11.png?raw=true)
   
   ### Zilu, Wang
 
